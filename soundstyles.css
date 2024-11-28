@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background-color: black;
+	display: flex;
+	justify-content: center;
+    align-items: center;     
+}
+
+.media-player {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    margin: 20px ;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: yellow; /* hold a little bit */
+}
+
+button:focus {
+    outline: 2px solid blue; 
+}
+
+.track {
+    display: block;
+    margin: 10px;
+    color: black;
+}
+
+.track:visited {
+    color: white; 
+}
+
